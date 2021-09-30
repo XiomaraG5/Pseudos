@@ -1,21 +1,21 @@
-# Ejercicio 1 una apliación donde se implementen 5 pseudoclase y 5 pseudoelementos
+# Ejercicio 1. <br> una apliación donde se implementen 5 pseudoclase y 5 pseudoelementos
 
 ## Pasos seguidos.
  
 - cree la estructura Html basica
 - Organice en divisiones el contenido.
-- Encabezado y párrfos con las psuedoclases 
+- Encabezado y párrfos con las psuedoclases: 
   1. :focus
   2. :hover
   3. :link
   4. :visited
   5. :nth-child( )
-- encabezado y párrafos con los 
-  1. :first-letter
-  2. :before
-  3. :after
-  4. :selection
-  5. :placehoder( )
+- encabezado y párrafos con los pseudo elementos:
+  1. ::first-letter
+  2. ::before
+  3. ::after
+  4. ::selection
+  5. ::placehoder( )
 
 ###PSEUDO-CLASES Y PSEUDO ELEMENTOS INCLUIDOS
 
@@ -58,3 +58,4 @@ Todo el texto del contenido tiene :hover
     border: none;
 }
 ```
+🤍
