@@ -1,0 +1,129 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    background-color: #0D0D0D;
+}
+::selection {
+    color: #EF4BF2;
+    background-color: #0D0D0D;
+}
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+}
+.contenedor__h1 {
+    width: 50%;
+    align-self: center;
+    background:linear-gradient( transparent, #0D0D0D);
+    box-shadow: 0.5px 0.5px 0.5px #D9042B;
+    text-align: center;
+    margin-top: 10px;
+    color: #F2D8E1;
+    padding: 0.2%;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 22px;
+    display: inline-block;
+    z-index: 10;
+    margin-top: 4%;
+    height: 35px;
+    border-radius: 50px;
+    transition: all 300ms;
+}
+.contenedor__h1:hover {
+    cursor: pointer;
+    background:linear-gradient( #D91E41, #0D0D0D);
+}
+
+.cards {
+    width: 80%;
+    justify-content: space-evenly;
+    background-color: black;
+    display: inline-block;
+    border: 1px solid #BF0404;
+    box-shadow: -1px -1px 3px 3px rgba(217,30,65,0.75);
+    height: 235px;
+    margin-top: -0.18%;
+    transition: all 300ms;
+}
+.cards:active {
+    transform: scale(1.1,1.1);
+}
+.cards2 {
+    height: 285px;
+}
+
+.cards__h2 {
+    flex-basis: 80%;
+    align-self: center;
+    background-color: black;
+    text-align: center;
+    margin-top: 7px;
+    color: #F2D8E1;
+    padding: 0.1%;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 16px;
+}
+.cards__h2:hover {
+    color: #D9042B;
+    cursor: pointer;
+}
+.cards__h2::after {
+    content: ".";
+}
+.card-contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.card {
+    flex-basis: 25%;
+    padding: 0.3%;
+}
+.card:last-child {
+    flex-basis: 100%;
+    text-align: center;
+}
+.card__h3{
+    color: #F2D8E1;
+    text-align: center;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 14px;
+    padding-top: 0.5%;
+}
+.card__h3::before {
+    content: "-"
+}
+.card__h3:hover {
+    color: #D9042B;
+    cursor: pointer;
+}
+.card:last-child .card__h3 {
+    border-top: 1px solid #BF0404;
+}
+.card__p {
+    color: #F2D8E1;
+    text-align: justify;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 12px;
+    margin: 0.5%;
+    padding: 2%;
+    border-left: 1px solid #BF0404;
+}
+.card__p::first-letter {
+    color: #D9042B;
+}
+.card__p::first-line {
+    text-decoration: underline #D9042B;
+}
+.card:first-child .card__p {
+    border: none;
+}
+.card:last-child .card__p {
+    text-align: center;
+    border: none;
+}
